@@ -1,0 +1,19 @@
+.pagesheader {
+  font-size: 1.6em;
+}
+.recuring {
+  &_card {
+    background-color: rgba(var(--ion-color-medium-rgb), 0.1);
+
+    ion-card-title {
+      font-size: 200%;
+    }
+    ion-card-subtitle {
+      font-size: 128%;
+    }
+    h2 {
+      font-size: 132%;
+      color: rgb(70, 70, 70);
+    }
+  }
+}

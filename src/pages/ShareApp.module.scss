@@ -1,0 +1,32 @@
+.pageheader {
+  font-size: 1.6em;
+}
+.ShareApp {
+  &_content {
+    height: 94%;
+    ion-content {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-evenly;
+      display: flex;
+      ion-icon {
+        display: flex;
+        font-size: 50px;
+        font-weight: 700;
+        color: #8d0e12;
+        width: 90px;
+        margin: auto;
+      }
+      h1 {
+        text-align: center;
+      }
+      ion-button {
+        height: 50px;
+        width: 168%;
+        font-size: 80%;
+        border: 6px solid rgb(253, 232, 232);
+      }
+    }
+  }
+}

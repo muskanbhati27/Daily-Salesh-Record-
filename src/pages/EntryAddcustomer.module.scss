@@ -1,0 +1,77 @@
+.pageheader {
+  font-size: 1.6em;
+}
+.Addcustomer {
+  &_content {
+    height: 92%;
+    padding: 16px;
+
+    ion-icon {
+      display: flex;
+      font-size: 50px;
+      font-weight: 700;
+      color: #8d0e12;
+      width: 90px;
+      margin: auto;
+    }
+
+    .Addcustomer {
+      &_text {
+        text-align: center;
+        h1 {
+          font-size: 158%;
+          font-weight: 500;
+        }
+        ion-text {
+          font-size: 132%;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+.Addcustomer {
+  &_form {
+    padding: 16px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    ion-input {
+      font-size: 120%;
+    }
+  }
+}
+.selectitem {
+  &_icon {
+    ion-icon {
+      color: #8d0e12;
+      font-size: 1.4em;
+    }
+  }
+}
+.datepicker {
+  justify-content: end;
+  width: 100%;
+}
+.pages_header {
+  font-size: 1.4em;
+}
+.readio {
+  &_group {
+    width: 260px;
+    h2 {
+      text-transform: capitalize;
+      font-size: 112%;
+      font-weight: 400;
+    }
+    p {
+      font-size: 80%;
+      font-weight: 400;
+      color: rgb(88, 88, 88);
+    }
+  }
+}
+ion-input {
+  font-size: 4em;
+}

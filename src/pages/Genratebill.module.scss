@@ -1,0 +1,70 @@
+// #bill-hrading{
+//   font-size: 112%;
+//   text-align: center;
+// }
+// #bill-name{
+//   font-size: 86;
+// }
+
+.pageheader {
+  font-size: 1.6em;
+}
+.Genratebill {
+  &_content {
+    padding: 16px;
+    height: 92%;
+    ion-icon {
+      display: flex;
+      font-size: 50px;
+      font-weight: 700;
+      color: #8d0e12;
+      width: 90px;
+      margin: auto;
+    }
+    .Genratebill {
+      &_text {
+        text-align: center;
+        h1 {
+          font-size: 158%;
+          font-weight: 500;
+        }
+        ion-text {
+          font-size: 132%;
+          font-weight: 500;
+        }
+      }
+    }
+    .Genratebill {
+      &_form {
+        padding: 16px;
+        height: 38%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        ion-icon {
+          font-size: 1.2em;
+        }
+        .datepicker {
+          justify-content: end;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.readio {
+  &_group {
+    width: 260px;
+
+    h2 {
+      text-transform: capitalize;
+      font-size: 112%;
+      font-weight: 400;
+    }
+    p {
+      font-size: 80%;
+      font-weight: 400;
+      color: rgb(88, 88, 88);
+    }
+  }
+}

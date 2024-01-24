@@ -1,0 +1,60 @@
+.login {
+  &_Header {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 160px;
+    width: 88%;
+    background: #8d0e12;
+    border-radius: 1px 1px 110px 1px;
+    h1 {
+      color: white;
+      font-size: 220%;
+      font-weight: 700;
+      text-align: start;
+    }
+    ion-text {
+      font-size: 164%;
+      color: #e5e5e5;
+      font-weight: 400;
+      text-align: start;
+    }
+  }
+}
+.Login {
+  &_content {
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    height: 66%;
+
+    ion-input {
+      font-size: 120%;
+    }
+    ion-text {
+      display: flex;
+      font-size: 120%;
+      justify-content: center;
+      align-items: flex-end;
+      height: 22%;
+    }
+    .login_signupbutton {
+      margin-top: 16px;
+      font-size: 138%;
+      width: 100%;
+    }
+
+    .Forward_link {
+      margin-top: 16px;
+      font-size: 120%;
+      font-weight: 700;
+      height: 6%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+  }
+}

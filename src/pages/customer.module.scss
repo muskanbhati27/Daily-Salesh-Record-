@@ -1,0 +1,41 @@
+.pageheader {
+  font-size: 1.6em;
+}
+.customer {
+  &_container {
+    height: 94%;
+    ion-row {
+      font-size: 20px;
+      font-weight: 500;
+      color: white;
+      text-align: center;
+      background-color: rgba(var(--ion-color-primary-rgb), 1);
+      border: 1px solid black;
+      position: sticky;
+      ion-col {
+        font-size: 100%;
+        padding: 12px;
+      }
+    }
+    ion-grid {
+      font-size: 160%;
+      font-weight: 550;
+      height: 100%;
+      color: white;
+      text-align: center;
+      ion-row {
+        font-size: 88%;
+        font-weight: 500;
+        padding: 6px;
+        color: black;
+        text-align: center;
+        background-color: rgba(var(--ion-color-medium-rgb), 0.1);
+        border: 1px solid black;
+        text-transform: capitalize;
+        ion-col {
+          padding: 6px;
+        }
+      }
+    }
+  }
+}
